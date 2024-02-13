@@ -373,7 +373,7 @@ int sil(node *iter, int id)
     gecici = iter;
     iter = iter->next;
     free(gecici);
-    printf("id'si %d olan kayit basariyla xxxx silindi. \n", id);
+    printf("id'si %d olan kayit basariyla silindi. \n", id);
     return 1;
   }
   else
